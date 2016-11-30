@@ -1,0 +1,39 @@
+"*":
+  core:
+    disabledPackages: [
+      "linter-csslint"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+  editor:
+    fontSize: 13
+    tabLength: 4
+  "exception-reporting":
+    userId: "9883a4ed-0f7f-6814-f14d-a3f38b5ed823"
+  "git-blame": {}
+  "goto-definition": {}
+  hyperclick:
+    darwinTriggerKeys: "ctrlKey"
+  "js-hyperclick":
+    extensions: [
+      ".js"
+      ".json"
+      ".node"
+      ".jsx"
+    ]
+    jumpToImport: true
+  linter:
+    showErrorPanel: false
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  navigate:
+    f1: "http://devdocs.io/#q=&searchterm"
+    f10: "https://duckduckgo.com/?q=&searchterm"
+    f6: "http://www.bing.com/search?q=&searchterm"
+  welcome:
+    showOnStartup: false
